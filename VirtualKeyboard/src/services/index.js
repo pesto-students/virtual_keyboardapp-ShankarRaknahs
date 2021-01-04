@@ -32,24 +32,8 @@ exports.Init = () => {
         document.getElementById("#keyboard-input-textarea").readOnly = false;
     })
     document.getElementById("#keyboard-toggle-on").addEventListener("click", function(){
-        location.reload();
+       document.getElementById("#keyboard-container").style.display="inline";
+       document.getElementById("#keyboard-input-textarea").readOnly = true;
     })
-
-
-//     document.getElementById("#keyboard-toggle").addEventListener("click", function(key){
-
-//     })
-
-
-// //services    
-// function keyboardToggle(){
-//   alert('true',isKeyboardEnabled);  
-//     if(isKeyboardEnabled){
-//       isKeyboardEnabled = false;
-//       document.getElementById("#grid-container").style.display="none";
-//     }
-//}
-
-
 
 };

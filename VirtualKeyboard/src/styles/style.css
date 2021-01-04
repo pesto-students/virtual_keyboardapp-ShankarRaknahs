@@ -1,4 +1,6 @@
-
+.keyboard-container{
+  display: inline;
+}
 .keyboard-input {
     padding: 20px;
     margin: 20px;
